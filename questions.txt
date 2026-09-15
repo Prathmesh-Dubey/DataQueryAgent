@@ -1,0 +1,30 @@
+Based on your actual schema (`products`: name/category/unit_price, `sales`: quantity/price/revenue/sale_date), here are good questions to try:
+
+**Rankings / totals**
+- "What are the top 5 products by revenue?"
+- "Which category has the most sales?"
+- "What's the average unit price by category?"
+- "How many units of each product have been sold?"
+
+**Trends over time**
+- "Show monthly sales trends"
+- "What was total revenue in 2025 vs 2024?"
+- "Which month had the highest revenue?"
+- "Show quarterly revenue for 2025"
+
+**Comparisons / breakdowns**
+- "Show total revenue by product"
+- "Compare Electronics vs Furniture revenue"
+- "What's the total quantity sold by category?"
+- "Which products sell the least?"
+
+**Chatbot follow-ups** (test conversation memory — ask one of the above, then):
+- "Now break that down by month"
+- "What about just for Electronics?"
+- "Which of those has the highest average price?"
+
+**Edge cases worth trying**
+- "What's the weather today?" → should refuse (non-data question)
+- "Show me sales of a product that doesn't exist" → should return "No data matched" instead of making something up
+
+Want me to run a few of these live and show you the results?
