@@ -1,0 +1,9 @@
+#terminal 1 - backend
+    cd backend
+    .\venv\Scripts\Activate.ps1
+    uvicorn main:app --reload  
+
+#terminal 2 - frontend
+    cd frontend
+    npm install (optional)
+    npm run dev

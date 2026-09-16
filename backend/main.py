@@ -1,8 +1,3 @@
-# ============================================================
-# DataQuery Agent — LLM-Powered Conversational Data Analytics
-# Single-file FastAPI backend
-# ============================================================
-
 import os
 import re
 import time
